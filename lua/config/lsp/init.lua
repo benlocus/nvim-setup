@@ -40,6 +40,9 @@ import({ "mason", "mason-lspconfig", "lspconfig", "cmp_nvim_lsp" }, function(mod
 			"volar",
 			"angularls",
 			"rust_analyzer",
+			--"denols",
+			"sqlls",
+			"svelte",
 		},
 	})
 

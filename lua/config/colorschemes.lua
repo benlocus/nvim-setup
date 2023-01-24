@@ -1,7 +1,7 @@
 import("catppuccin", function(catppuccin)
 	catppuccin.setup({
-		flavour = "mocha", -- latte, frappe, macchiato, mocha
-		term_colors = true,
+		flavour = "macchiato", -- latte, frappe, macchiato, mocha
+		term_colors = false,
 		transparent_background = false,
 		no_italic = false,
 		no_bold = false,
@@ -37,4 +37,27 @@ import("catppuccin", function(catppuccin)
 		},
 	})
 	vim.cmd.colorscheme("catppuccin")
+end)
+
+import("kanagawa", function(kanagawa)
+	kanagawa.setup({
+		undercurl = true,
+		commentStyle = { italic = true },
+		functionStyle = {},
+		keywordStyle = { italic = true },
+		statementStyle = { bold = true },
+		typeStyle = {},
+		variablebuiltinStyle = { italic = true },
+		specialReturn = true,
+		specialException = true,
+		transparent = false,
+		dimInactive = false,
+		globalStatus = false,
+		terminalColors = true,
+		colors = {},
+		overrides = {},
+		theme = "default",
+	})
+
+	vim.cmd.colorscheme("kanagawa")
 end)

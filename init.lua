@@ -35,3 +35,5 @@ require("config.color-highlight")
 require("config.tmux")
 require("config.git-conflict")
 require("config.diffview")
+vim.o.guifont = "FiraCode Nerd Font:h16"
+-- set guidefont = "Fira\ Code \"

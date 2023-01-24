@@ -19,6 +19,7 @@ import("nvim-treesitter.configs", function(treesitter)
 			"java",
 			"astro",
 			"vue",
+			"rust",
 			"dockerfile",
 			"graphql",
 			"yaml",

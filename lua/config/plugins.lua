@@ -64,6 +64,7 @@ return packer.startup(function(use)
 
 	-- Colorscheme
 	use({ "catppuccin/nvim", as = "catppuccin" })
+	use({ "rebelot/kanagawa.nvim", as = "kanagawa" })
 
 	-- Treesitter
 	use("nvim-treesitter/nvim-treesitter")
